@@ -1,0 +1,150 @@
+*{
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Header */
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: cadetblue;
+  padding: 1rem 0rem;
+}
+
+.nav-logo{
+  display: flex;
+  align-items:center;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.nav-logo img{
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+
+.nav-logo span{
+  margin-left: 1rem;
+  color: white;
+}
+
+.nav-header a{
+  text-decoration: none;
+  color: white;
+  margin: 0rem 2rem;
+}
+
+/* Banner */
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("resources/../../images/glasses-bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.banner-box h1{
+  display: flex;
+  font-size: 2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+/* Services Section */
+
+.services{
+  display: flex;
+  justify-content: center;
+}
+
+.services-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  flex-basis: 15%;
+}
+
+.exams img{
+  width: 3.5rem;
+}
+
+.fittings img{
+  width: 5rem;
+  margin-bottom: 1.75rem;
+}
+
+.deliver img{
+  width: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Philosophy & Appt Section */
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.title{
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
+
+.about-box p{
+  display: block;
+  text-align: left;
+  max-width: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* Footer Section */
+
+footer{
+  display: flex;
+  background-color: azure;
+  height: 10rem;
+  width: 100%;
+}
+
+.footlogo{
+  display: flex;
+  align-items:center;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.footlogo span{
+  margin-left: 1rem;
+}
+
+.footlogo img{
+  height: 1.5rem;
+}
