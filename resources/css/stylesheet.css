@@ -41,6 +41,10 @@
   margin: 0rem 2rem;
 }
 
+.mobilenav{
+  display: none;
+}
+
 /* Banner */
 
 .banner{
@@ -229,11 +233,23 @@ flex-basis: 25%;
 
 @media only screen and (max-width: 600px){
 
-.banner{
+.nav-logo span{
+    display: none;
+  }
+
+.nav-header{
+  display: none;
+}
+
+nav .mobilenav span{
+    display: block;
+  }
+
+  .banner{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: left;
+  background-position: 20%;
   background-size: cover;
   height: 17rem;
 }
@@ -243,10 +259,6 @@ flex-basis: 25%;
   margin-top: 12rem;
   font-size: 1rem;
   padding: 0.5rem 5rem;
-}
-
-.nav-logo span{
-  display: none;
 }
 
 .services{
@@ -319,10 +331,5 @@ footer{
 .footlogo span{
   display: none;
 }
-
-.footlogo img{
-  height: 1.5rem;
-}
-
 
 }
